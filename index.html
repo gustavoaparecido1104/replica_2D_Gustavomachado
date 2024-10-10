@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1 News Layout</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
+        <!-- Top banner with FIA logo and series links -->
+        <div class="header-banner">
+            <div class="fia-logo">
+                <img src="fia_logo.png" alt="FIA Logo">
+            </div>
+            <div class="series-links">
+                <ul>
+                    <li><a href="#">F1®</a></li>
+                    <li><a href="#">F2™</a></li>
+                    <li><a href="#">F3™</a></li>
+                    <li><a href="#">F1® Academy</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Main navigation header -->
         <div class="header-top">
             <div class="logo">
                 <img src="f1_logo.png" alt="F1 Logo">
@@ -32,6 +48,36 @@
         </div>
     </header>
 
-    <!-- Rest of the page content -->
+    <main>
+        <section class="main-news">
+            <div class="news-highlight">
+                <img src="lawson_news.jpg" alt="Lawson News">
+                <div class="news-text">
+                    <h2>'I was pretty emotional' - Lawson recalls the surreal moment that 'saved my career'</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="side-news">
+            <div class="side-news-item">
+                <img src="russell_news.jpg" alt="Russell News">
+                <h3>Russell reckons Antonelli will 'keep me on my toes' in 2025</h3>
+            </div>
+            <div class="side-news-item">
+                <img src="horner_news.jpg" alt="Horner News">
+                <h3>Horner makes Ronaldo comparison as Newey gets set for switch from Red Bull to Aston Martin</h3>
+            </div>
+        </section>
+
+        <section class="history-news">
+            <div class="history-image">
+                <img src="historical_f1.jpg" alt="Historical F1 Moment">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Formula 1 News</p>
+    </footer>
 </body>
 </html>
