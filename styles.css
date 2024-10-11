@@ -9,7 +9,7 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Top Banner Styles */
+
 .header-banner {
     background-color: #e0e0e0;
     display: flex;
@@ -39,20 +39,21 @@ body {
     color: #ff0000;
 }
 
-/* Main Navigation Header */
+
 header {
     background-color: #ff0000;
     padding: 10px 20px;
 }
 
 .header-top {
+rgb(225, 6, 0, var(--tw-bg-opacity))
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo img {
-    height: 50px;
+    height: 30px;
 }
 
 .menu {
@@ -93,7 +94,7 @@ header {
     opacity: 0.8;
 }
 
-/* Main Content Styles */
+
 main {
     margin: 20px;
     display: flex;
