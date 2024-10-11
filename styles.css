@@ -17,7 +17,7 @@ body {
     padding: 10px 0; /* Ajustar padding superior e inferior */
     width: 100%; /* Garantir que ocupa 100% da largura */
     position: relative; /* Para evitar espaçamento indesejado */
-    top: 0; /* Encostar no topo */
+    top: 5; /* Encostar no topo */
 }
 
 .fia-logo img {
