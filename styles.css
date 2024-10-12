@@ -7,22 +7,29 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
+/* Ajustando o topo da página e barra de navegação */
 header {
     background-color: #ff0000;
-    padding: 10px 20px;
+    padding: 0; /* Remove o padding superior e inferior */
     color: white;
+    width: 100%;
+    position: relative;
 }
 
 .header-top, .header-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px; /* Diminui o padding para maior compactação */
 }
 
 .header-top {
-    background-color: #fff;
+    background-color: #ffffff;
+    margin: 0;
 }
 
 .fia-logo img {
@@ -39,6 +46,7 @@ header {
     color: #333;
     text-decoration: none;
     font-weight: bold;
+    font-size: 14px; /* Deixa as fontes menores para um layout mais compacto */
 }
 
 .series-links ul li a:hover {
@@ -49,6 +57,7 @@ header {
     list-style-type: none;
     display: flex;
     gap: 20px;
+    padding: 0;
 }
 
 .main-menu ul li a {
@@ -84,6 +93,7 @@ header {
     opacity: 0.8;
 }
 
+/* Ajustando o layout do conteúdo principal */
 main {
     display: flex;
     flex-direction: column;
@@ -140,6 +150,7 @@ main {
     height: auto;
 }
 
+/* Ajuste final do rodapé */
 footer {
     background-color: #ff0000;
     color: white;
