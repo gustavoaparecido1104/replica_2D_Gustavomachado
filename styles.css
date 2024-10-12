@@ -32,10 +32,31 @@ header {
     margin: 0;
 }
 
-.fia-logo img {
-    height: 40px;
+/* FIA logo stays on the left */
+.fia-logo {
+    display: flex;
+    align-items: center;
 }
 
+/* Extra links (Authentics, Store, Tickets, etc.) */
+.extra-links ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.extra-links ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px; /* Deixa as fontes menores para um layout mais compacto */
+}
+
+.extra-links ul li a:hover {
+    color: #ff0000;
+}
+
+/* Series links (F1, F2, F3) stay on the right */
 .series-links ul {
     list-style-type: none;
     display: flex;
@@ -53,18 +74,6 @@ header {
     color: #ff0000;
 }
 
-/* Ajustando os itens F1, F2, F3 e F1 Academy */
-.navbar {
-    display: flex;
-    justify-content: space-between; /* Para espalhar os itens */
-    align-items: center; /* Para alinhar os itens verticalmente */
-}
-
-.navbar a {
-    padding: 10px; /* Ajuste o espaçamento entre os itens */
-    font-size: 14px; /* Defina o tamanho da fonte, se necessário */
-}
-
 .main-menu ul {
     list-style-type: none;
     display: flex;
@@ -79,12 +88,9 @@ header {
     font-weight: bold;
 }
 
-/* Alinhando e espaçando os botões "Sign In" e "Subscribe" */
 .auth-buttons {
     display: flex;
-    justify-content: flex-end; /* Alinha os botões à direita */
-    align-items: center;
-    gap: 10px; /* Espaçamento entre os botões */
+    gap: 10px;
 }
 
 .sign-in, .subscribe {
