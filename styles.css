@@ -14,7 +14,7 @@ body {
 /* Ajustando o topo da página e barra de navegação */
 header {
     background-color: #ff0000;
-    padding: 0; /* Remove o padding superior e inferior */
+    padding: 0;
     color: white;
     width: 100%;
     position: relative;
@@ -24,39 +24,25 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px; /* Diminui o padding para maior compactação */
+    padding: 10px 20px;
 }
 
 .header-top {
     background-color: #ffffff;
     margin: 0;
+    display: flex;
+    justify-content: flex-start; /* Alinhando à esquerda */
 }
 
-/* FIA logo stays on the left */
 .fia-logo {
     display: flex;
     align-items: center;
 }
 
-/* Extra links (Authentics, Store, Tickets, etc.) */
-.extra-links ul {
-    list-style-type: none;
-    display: flex;
-    gap: 15px;
+.series-links {
+    margin-left: 20px; /* Adiciona espaço entre o logo da FIA e os links */
 }
 
-.extra-links ul li a {
-    color: #333;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 14px; /* Deixa as fontes menores para um layout mais compacto */
-}
-
-.extra-links ul li a:hover {
-    color: #ff0000;
-}
-
-/* Series links (F1, F2, F3) stay on the right */
 .series-links ul {
     list-style-type: none;
     display: flex;
@@ -67,10 +53,32 @@ header {
     color: #333;
     text-decoration: none;
     font-weight: bold;
-    font-size: 14px; /* Deixa as fontes menores para um layout mais compacto */
+    font-size: 14px;
 }
 
 .series-links ul li a:hover {
+    color: #ff0000;
+}
+
+/* Links como Authentic, Store, etc. centralizados */
+.extra-links {
+    margin: 0 auto; /* Centraliza os links no meio da barra */
+}
+
+.extra-links ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.extra-links ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.extra-links ul li a:hover {
     color: #ff0000;
 }
 
