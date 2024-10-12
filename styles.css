@@ -53,6 +53,18 @@ header {
     color: #ff0000;
 }
 
+/* Ajustando os itens F1, F2, F3 e F1 Academy */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Para espalhar os itens */
+    align-items: center; /* Para alinhar os itens verticalmente */
+}
+
+.navbar a {
+    padding: 10px; /* Ajuste o espaçamento entre os itens */
+    font-size: 14px; /* Defina o tamanho da fonte, se necessário */
+}
+
 .main-menu ul {
     list-style-type: none;
     display: flex;
@@ -67,9 +79,12 @@ header {
     font-weight: bold;
 }
 
+/* Alinhando e espaçando os botões "Sign In" e "Subscribe" */
 .auth-buttons {
     display: flex;
-    gap: 10px;
+    justify-content: flex-end; /* Alinha os botões à direita */
+    align-items: center;
+    gap: 10px; /* Espaçamento entre os botões */
 }
 
 .sign-in, .subscribe {
