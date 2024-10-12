@@ -36,19 +36,10 @@ header {
     height: 40px;
 }
 
-.header-banner {
-    background-color: #ffffff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; /* Alinhamento vertical dos itens */
-    padding: 10px 20px; /* Espaçamento em torno da barra */
-}
-
 .series-links ul {
     list-style-type: none;
     display: flex;
-    gap: 15px; /* Espaçamento entre os links */
-    margin-left: 20px; /* Adiciona margem à esquerda para afastar da logo */
+    gap: 15px;
 }
 
 .series-links ul li a {
@@ -79,7 +70,6 @@ header {
 .auth-buttons {
     display: flex;
     gap: 10px;
-    align-items: center; /* Alinhamento vertical dos botões */
 }
 
 .sign-in, .subscribe {
