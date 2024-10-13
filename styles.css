@@ -165,10 +165,12 @@ main {
     display: flex;
     flex-direction: row; /* Mudando para linha */
     gap: 20px; /* Espaço entre as imagens */
+    margin-top: 20px; /* Espaço entre a imagem do Lawson e as imagens de Russell e Horner */
 }
 
 .related-item {
     flex: 1; /* Cada item ocupa o mesmo espaço */
+    max-width: 30%; /* Definindo largura máxima para evitar que as imagens fiquem muito grandes */
 }
 
 .related-item img {
