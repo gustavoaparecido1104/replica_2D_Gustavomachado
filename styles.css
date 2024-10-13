@@ -136,7 +136,7 @@ main {
 
 /* Imagem maior à esquerda */
 .featured-article {
-    flex: 2; /* Ocupa mais espaço */
+    flex: 3; /* Ocupa mais espaço */
     position: relative;
 }
 
@@ -158,8 +158,8 @@ main {
 .related-news {
     flex: 1; /* Ocupa menos espaço */
     display: flex;
-    flex-direction: column; /* Alinha verticalmente */
-    gap: 20px;
+    flex-direction: row; /* Alinha horizontalmente */
+    gap: 20px; /* Espaço entre as imagens */
 }
 
 .related-item {
