@@ -131,17 +131,18 @@ main {
 
 .main-content {
     display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 
 .featured-article {
     flex: 2; /* Aumentando o tamanho da imagem principal */
-    position: relative;
 }
 
 .lawson-image-container {
     border: 5px solid #ff0000; /* Borda vermelha */
     position: relative; /* Para o título ficar sobre a imagem */
+    width: 50%; /* Ocupando 50% da largura */
 }
 
 .lawson-image-container img {
@@ -162,9 +163,8 @@ main {
 /* Ajustando as imagens menores à direita */
 .related-news {
     display: flex;
-    flex-direction: column; /* Alinhando imagens menores verticalmente */
+    flex-direction: row; /* Mudando para linha */
     gap: 20px; /* Espaço entre as imagens */
-    flex: 1;
 }
 
 .related-item {
@@ -181,7 +181,7 @@ main {
     margin-top: 10px;
 }
 
-/* Novas imagens adicionais em uma nova linha */
+/* Seção de notícias adicionais abaixo */
 .additional-news {
     display: flex;
     flex-direction: row; /* Alinhando horizontalmente */
