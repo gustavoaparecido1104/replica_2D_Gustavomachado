@@ -131,13 +131,13 @@ main {
 
 .main-content {
     display: flex;
-    flex-direction: column; /* Mudar para coluna para adicionar itens em sequência */
+    flex-direction: row; /* Alinhando itens em linha */
     gap: 20px;
 }
 
 /* Imagem maior à esquerda */
 .featured-article {
-    flex: 2; /* Ocupa mais espaço */
+    flex: 2; /* Aumentando o tamanho da imagem principal */
     position: relative;
 }
 
@@ -158,12 +158,9 @@ main {
 /* Duas imagens menores à direita */
 .related-news {
     display: flex;
-    flex-direction: row; /* Alinha horizontalmente */
+    flex-direction: column; /* Alinhando imagens menores verticalmente */
     gap: 20px; /* Espaço entre as imagens */
-}
-
-.related-item {
-    flex: 1; /* Cada item ocupa o mesmo espaço */
+    flex: 1;
 }
 
 .related-item img {
@@ -176,11 +173,12 @@ main {
     margin-top: 10px;
 }
 
-/* Novas imagens adicionais */
+/* Novas imagens adicionais em uma nova linha */
 .additional-news {
     display: flex;
-    flex-direction: row; /* Alinha horizontalmente */
+    flex-direction: row; /* Alinhando horizontalmente */
     gap: 20px; /* Espaço entre as imagens */
+    margin-top: 20px; /* Espaço entre seções */
 }
 
 .additional-item {
