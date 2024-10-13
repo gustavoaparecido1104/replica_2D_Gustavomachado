@@ -136,7 +136,7 @@ main {
 
 /* Imagem maior à esquerda */
 .featured-article {
-    flex: 3; /* Ocupa mais espaço */
+    flex: 2; /* Ocupa mais espaço */
     position: relative;
 }
 
