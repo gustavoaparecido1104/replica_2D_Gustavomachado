@@ -134,8 +134,9 @@ main {
     gap: 20px;
 }
 
+/* Imagem maior à esquerda */
 .featured-article {
-    flex: 2;
+    flex: 2; /* Ocupa mais espaço */
     position: relative;
 }
 
@@ -153,11 +154,16 @@ main {
     padding: 15px;
 }
 
+/* Duas imagens menores à direita */
 .related-news {
-    flex: 1;
+    flex: 1; /* Ocupa menos espaço */
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Alinha verticalmente */
     gap: 20px;
+}
+
+.related-item {
+    flex: 1; /* Cada item ocupa o mesmo espaço */
 }
 
 .related-item img {
