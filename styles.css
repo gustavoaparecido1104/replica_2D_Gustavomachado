@@ -31,7 +31,7 @@ header {
     background-color: #ffffff;
     margin: 0;
     display: flex;
-    justify-content: flex-start; /* Alinhando à esquerda */
+    justify-content: flex-start;
 }
 
 .fia-logo {
@@ -40,7 +40,7 @@ header {
 }
 
 .series-links {
-    margin-left: 20px; /* Adiciona espaço entre o logo da FIA e os links */
+    margin-left: 20px;
 }
 
 .series-links ul {
@@ -60,9 +60,8 @@ header {
     color: #ff0000;
 }
 
-/* Links como Authentic, Store, etc. centralizados */
 .extra-links {
-    margin: 0 auto; /* Centraliza os links no meio da barra */
+    margin: 0 auto;
 }
 
 .extra-links ul {
@@ -131,12 +130,16 @@ main {
 
 .main-content {
     display: flex;
+    flex-direction: row;
     gap: 20px;
 }
 
+/* Adicionando borda vermelha ao redor da imagem destacada (Lawson) */
 .featured-article {
     flex: 2;
     position: relative;
+    border: 4px solid red;
+    padding: 5px;
 }
 
 .featured-article img {
@@ -153,33 +156,32 @@ main {
     padding: 15px;
 }
 
-.side-articles {
+.related-news {
     display: flex;
     flex-direction: column;
     gap: 20px;
     flex: 1;
 }
 
-.side-article-item img {
+.related-item img {
     width: 100%;
     height: auto;
 }
 
-.side-article-item h3 {
+.related-item h3 {
     text-align: center;
     margin-top: 10px;
 }
 
-/* Novas imagens adicionais em uma nova linha */
 .additional-news {
     display: flex;
-    flex-direction: row; /* Alinhando horizontalmente */
-    gap: 20px; /* Espaço entre as imagens */
-    margin-top: 20px; /* Espaço entre seções */
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
 }
 
 .additional-item {
-    flex: 1; /* Cada item ocupa o mesmo espaço */
+    flex: 1;
 }
 
 .additional-item img {
