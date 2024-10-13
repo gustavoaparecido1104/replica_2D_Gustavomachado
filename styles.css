@@ -131,13 +131,11 @@ main {
 
 .main-content {
     display: flex;
-    flex-direction: row; /* Alinhando itens em linha */
     gap: 20px;
 }
 
-/* Imagem maior à esquerda */
 .featured-article {
-    flex: 2; /* Aumentando o tamanho da imagem principal */
+    flex: 2;
     position: relative;
 }
 
@@ -155,20 +153,19 @@ main {
     padding: 15px;
 }
 
-/* Duas imagens menores à direita */
-.related-news {
+.side-articles {
     display: flex;
-    flex-direction: column; /* Alinhando imagens menores verticalmente */
-    gap: 20px; /* Espaço entre as imagens */
+    flex-direction: column;
+    gap: 20px;
     flex: 1;
 }
 
-.related-item img {
+.side-article-item img {
     width: 100%;
     height: auto;
 }
 
-.related-item h3 {
+.side-article-item h3 {
     text-align: center;
     margin-top: 10px;
 }
