@@ -76,6 +76,7 @@ nav ul {
     border-top: 5px solid #e10600; /* Borda vermelha na parte de cima */
     border-right: 5px solid #e10600; /* Borda vermelha no lado direito */
     box-sizing: border-box; /* Inclui as bordas no cálculo do tamanho total */
+    padding-top: 40px; /* Espaço superior para o título */
 }
 
 .lawson-image-container img {
@@ -87,12 +88,13 @@ nav ul {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro para o título */
-    color: white;
-    padding: 15px;
-    width: 100%; /* O título ocupa toda a largura */
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco para o título */
+    color: black; /* Cor do texto do título */
+    padding: 10px;
+    width: calc(100% - 10px); /* Largura do título, considerando o padding */
     box-sizing: border-box;
     text-align: left;
+    z-index: 1; /* Certifica que o título fique acima da imagem */
 }
 
 /* Notícias relacionadas */
