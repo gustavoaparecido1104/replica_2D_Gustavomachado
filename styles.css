@@ -135,10 +135,7 @@ main {
     gap: 20px;
 }
 
-.featured-article {
-    flex: 2; /* Aumentando o tamanho da imagem principal */
-}
-
+/* Ajustando a imagem do Lawson e suas bordas */
 .lawson-image-container {
     border: 5px solid #ff0000; /* Borda vermelha */
     position: relative; /* Para o título ficar sobre a imagem */
@@ -148,16 +145,6 @@ main {
 .lawson-image-container img {
     width: 100%;
     height: auto;
-}
-
-.article-title {
-    position: absolute;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
-    width: 100%;
-    padding: 15px;
-    text-align: center;
 }
 
 /* Ajustando as imagens menores à direita */
