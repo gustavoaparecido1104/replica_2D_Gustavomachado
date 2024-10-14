@@ -37,7 +37,7 @@ nav ul {
 .header-top nav a, .header-bottom nav a {
     color: inherit;
     text-decoration: none;
-    font-weight: bold; /* Para o texto ficar mais proeminente */
+    font-weight: bold;
 }
 
 .auth-buttons a {
@@ -64,8 +64,8 @@ nav ul {
     flex: 2; /* Tamanho flexível para o Lawson */
     max-width: 600px; /* Tamanho do container da notícia principal */
     margin-bottom: 20px;
-    border-left: 5px solid red; /* Borda vermelha à esquerda */
-    padding-left: 15px; /* Espaço à esquerda do conteúdo */
+    border: 5px solid red; /* Borda vermelha ao redor de toda a área */
+    padding: 0; /* Remover padding inicial */
 }
 
 .article-details {
@@ -76,37 +76,37 @@ nav ul {
     font-weight: bold;
     font-size: 1.5rem;
     margin-bottom: 10px; /* Espaço abaixo do título */
+    border-bottom: 5px solid red; /* Borda vermelha abaixo do título */
 }
 
 .lawson-image-container {
-    margin-top: 10px; /* Espaço entre o título e a imagem */
+    margin-top: 0; /* Remover margens */
 }
 
 .lawson-image {
-    width: 90%; /* Ajusta a largura da imagem para 90% */
+    width: 100%; /* Ajusta a largura da imagem para ocupar todo o espaço */
     height: auto; /* Mantém a proporção da imagem */
-    margin-left: 0; /* Remove margens se houver */
 }
 
 /* Notícias relacionadas */
 .related-news {
     display: flex;
-    flex-direction: column; /* Notícias relacionadas em coluna */
+    flex-wrap: wrap; /* Adiciona quebra de linha se necessário */
     gap: 20px;
     flex: 1;
+    justify-content: space-between; /* Espaça as imagens */
 }
 
 .related-item {
-    display: flex;
-    flex-direction: column; /* Alinha os itens verticalmente */
-    align-items: center; /* Centraliza o conteúdo */
-    text-align: center; /* Centraliza o texto */
+    flex: 1;
+    text-align: center;
+    max-width: 48%; /* Limitar a largura para que as imagens fiquem lado a lado */
 }
 
 .related-image {
-    width: 420px; /* Largura da imagem */
-    height: 236px; /* Altura da imagem */
-    object-fit: cover; /* Ajusta a imagem para cobrir o espaço */
+    width: 100%; /* Largura total do container */
+    height: auto; /* Ajusta automaticamente a altura */
+    object-fit: cover; /* Cobre o espaço da imagem */
 }
 
 .related-item h3 {
