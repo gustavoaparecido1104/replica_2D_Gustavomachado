@@ -7,6 +7,7 @@ body {
 
 header {
     color: #fff;
+    margin-bottom: 20px; /* Espaço entre o menu e os conteúdos */
 }
 
 .header-top {
@@ -72,6 +73,9 @@ nav ul {
 .lawson-image-container {
     width: 100%;
     position: relative;
+    border-top: 5px solid #e10600; /* Borda vermelha na parte de cima */
+    border-right: 5px solid #e10600; /* Borda vermelha no lado direito */
+    box-sizing: border-box; /* Inclui as bordas no cálculo do tamanho total */
 }
 
 .lawson-image-container img {
