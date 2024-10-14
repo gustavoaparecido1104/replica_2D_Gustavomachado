@@ -7,7 +7,6 @@ body {
 
 header {
     color: #fff;
-    margin-bottom: 20px; /* Espaço entre o menu e os conteúdos */
 }
 
 .header-top {
@@ -73,9 +72,6 @@ nav ul {
 .lawson-image-container {
     width: 100%;
     position: relative;
-    border-top: 5px solid #e10600; /* Borda vermelha na parte de cima */
-    border-right: 5px solid #e10600; /* Borda vermelha no lado direito */
-    box-sizing: border-box; /* Inclui as bordas no cálculo do tamanho total */
 }
 
 .lawson-image-container img {
@@ -84,16 +80,15 @@ nav ul {
 }
 
 .article-details {
-    position: absolute; /* Torna o título absoluto em relação ao container */
-    top: 0; /* Alinha na parte superior */
+    position: absolute;
+    top: 0;
     left: 0;
-    right: 0; /* Faz com que o título ocupe toda a largura do container */
-    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco para o título */
-    color: black; /* Cor do texto do título */
-    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro para o título */
+    color: white;
+    padding: 15px;
+    width: 100%; /* O título ocupa toda a largura */
     box-sizing: border-box;
     text-align: left;
-    z-index: 1; /* Mantém o título acima da imagem */
 }
 
 /* Notícias relacionadas */
