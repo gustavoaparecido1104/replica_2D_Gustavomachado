@@ -98,21 +98,20 @@ nav ul {
 
 .related-item {
     display: flex;
-    align-items: flex-start; /* Alinhamento ao topo */
-    gap: 10px;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    align-items: center; /* Centraliza o conteúdo */
+    text-align: center; /* Centraliza o texto */
 }
 
-.related-item img {
-    width: 150px;
-    height: 100px;
-    object-fit: cover;
+.related-image {
+    width: 420px; /* Largura da imagem */
+    height: 236px; /* Altura da imagem */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço */
 }
 
 .related-item h3 {
     font-size: 1rem;
-    text-align: left;
-    margin: 0;
-    word-wrap: break-word; /* Quebra a linha quando ultrapassa a largura da imagem */
+    margin: 10px 0 0 0; /* Margem acima do texto */
 }
 
 /* Notícias adicionais */
@@ -151,4 +150,3 @@ footer {
     text-align: center;
     padding: 20px;
 }
-
