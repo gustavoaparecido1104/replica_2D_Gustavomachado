@@ -66,10 +66,12 @@ nav ul {
 .featured-article {
     flex: 2; /* Tamanho flexível para o Lawson */
     max-width: 600px; /* Diminuí o tamanho máximo do Lawson */
+    position: relative;
 }
 
 .lawson-image-container {
     width: 100%;
+    position: relative;
 }
 
 .lawson-image-container img {
@@ -79,26 +81,28 @@ nav ul {
 
 .article-details {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
-    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro para o título */
     color: white;
-    padding: 10px;
-    max-width: 80%;
+    padding: 15px;
+    width: 100%; /* O título ocupa toda a largura */
+    box-sizing: border-box;
+    text-align: left;
 }
 
 /* Notícias relacionadas */
 .related-news {
     display: flex;
     flex-direction: row; /* Organiza os itens lado a lado */
-    gap: 10px; /* Espaço entre as notícias */
+    gap: 20px; /* Espaço entre as notícias */
     flex: 1;
     max-width: 400px; /* Ajusta o tamanho total das notícias relacionadas */
 }
 
 .related-item {
     flex: 1;
-    max-width: 150px; /* Limita a largura de cada item */
+    max-width: 200px; /* Aumenta a largura de cada item */
 }
 
 .related-item img {
@@ -108,7 +112,7 @@ nav ul {
 
 h3 {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem; /* Aumenta o tamanho da fonte dos títulos das notícias relacionadas */
 }
 
 /* Notícias adicionais */
