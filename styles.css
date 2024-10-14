@@ -63,15 +63,19 @@ nav ul {
 /* Estilos da seção principal */
 .main-content {
     display: flex;
-    gap: 20px; /* Espaço entre os blocos */
+    justify-content: space-between; /* Espaçamento entre os blocos */
+    gap: 20px;
+    flex-wrap: wrap; /* Permite que os itens se reorganizem em telas menores */
 }
 
 .featured-article {
-    flex: 2; /* A notícia de destaque ocupa mais espaço */
+    flex: 2;
 }
 
 .lawson-image-container {
     position: relative;
+    width: 100%; /* Ajusta para ocupar o espaço disponível */
+    max-width: 600px; /* Limite de largura para não ser muito grande */
 }
 
 .lawson-image-container img {
@@ -92,27 +96,27 @@ nav ul {
 /* Notícias relacionadas */
 .related-news {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     gap: 20px;
     flex: 1;
 }
 
 .related-item {
+    width: 100%; /* Ajusta a largura para caber no espaço */
+    max-width: 250px; /* Define um limite para as notícias relacionadas */
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
 }
 
 .related-item img {
     width: 100%;
     height: auto;
-    max-height: 150px; /* Reduzindo o tamanho da imagem para caber ao lado */
+    max-height: 150px; /* Tamanho menor para caber ao lado da principal */
 }
 
 h3 {
     text-align: center;
+    font-size: 1rem;
 }
 
 /* Estilos para as notícias adicionais */
