@@ -1,56 +1,36 @@
 /* Estilos gerais */
 body {
-    font-family: 'Roboto', sans-serif; /* Fonte similar ao site oficial da F1 */
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-}
-
-.header-top {
-    background-color: #fff; /* Parte branca */
-    color: black;
+    background-color: #fff;
     padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.header-bottom {
-    background-color: #e10600; /* Parte vermelha */
-    color: white;
-    padding: 10px;
+.fia-links {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
     gap: 15px;
 }
 
-.header-top nav a, .header-bottom nav a {
-    color: inherit;
-    text-decoration: none;
-    font-weight: bold; /* Para o texto ficar mais proeminente */
+.fia-logo {
+    width: 50px;
 }
 
-.auth-buttons a {
-    margin-left: 15px;
-    color: white;
-    text-decoration: none;
+.f1-links {
+    background-color: red;
     padding: 10px;
-    background-color: #e10600;
-    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.auth-buttons a:hover {
-    background-color: #b00000;
+.f1-logo {
+    width: 80px;
+    margin-right: 10px;
 }
 
 /* Estilos principais */
@@ -58,89 +38,62 @@ nav ul {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    padding: 20px;
 }
 
 .featured-article {
-    flex: 2; /* Tamanho flexível para o Lawson */
-    max-width: 600px; /* Tamanho do container da notícia principal */
+    flex: 2;
+    max-width: 600px;
     margin-bottom: 20px;
-    border-left: 5px solid red; /* Borda vermelha à esquerda */
-    padding-left: 15px; /* Espaço à esquerda do conteúdo */
+    padding-left: 15px;
 }
 
 .article-details {
-    background-color: white; /* Título fora da imagem, com fundo branco */
+    background-color: white;
     color: black;
     padding: 15px;
-    box-sizing: border-box;
     font-weight: bold;
     font-size: 1.5rem;
-    margin-bottom: 10px; /* Espaço abaixo do título */
+    margin-bottom: 10px;
+    border-right: 5px solid red;
+    border-top: 5px solid red;
 }
 
 .lawson-image-container {
-    margin-top: 10px; /* Espaço entre o título e a imagem */
+    margin-top: 10px;
 }
 
 .lawson-image {
-    width: 90%; /* Ajusta a largura da imagem para 90% */
-    height: auto; /* Mantém a proporção da imagem */
-    margin-left: 0; /* Remove margens se houver */
+    width: 90%;
+    height: auto;
 }
 
 /* Notícias relacionadas */
 .related-news {
     display: flex;
-    flex-direction: column; /* Notícias relacionadas em coluna */
+    flex-direction: column;
     gap: 20px;
     flex: 1;
 }
 
 .related-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    text-align: center;
 }
 
-.related-item img {
-    width: 150px;
-    height: 100px;
+.related-image {
+    width: 420px;
+    height: 236px;
     object-fit: cover;
 }
 
 .related-item h3 {
     font-size: 1rem;
-    text-align: left;
-    margin: 0;
-}
-
-/* Notícias adicionais */
-.additional-news {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
-    gap: 20px;
-}
-
-.additional-item {
-    flex: 1;
     text-align: center;
-}
-
-.additional-item img {
-    width: 100%;
-    height: auto;
-}
-
-/* Seção de história */
-.history-section {
-    margin-top: 40px;
-    text-align: center;
-}
-
-.history-image img {
-    width: 100%;
-    height: auto;
+    margin: 10px 0 0 0;
+    word-wrap: break-word;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Rodapé */
