@@ -10,7 +10,7 @@ header {
 }
 
 .header-top {
-    background-color: #fff; /* Parte branca: FIA e links relacionados */
+    background-color: #fff; /* Parte branca */
     color: black;
     padding: 10px;
     display: flex;
@@ -19,7 +19,7 @@ header {
 }
 
 .header-bottom {
-    background-color: #e10600; /* Parte vermelha: F1 logo e links principais */
+    background-color: #e10600; /* Parte vermelha */
     color: white;
     padding: 10px;
     display: flex;
@@ -34,17 +34,13 @@ nav ul {
 }
 
 .header-top nav a {
-    color: #000; /* Links na parte branca ficam pretos */
+    color: #000;
     text-decoration: none;
 }
 
 .header-bottom nav a {
-    color: #fff; /* Links na parte vermelha ficam brancos */
+    color: #fff;
     text-decoration: none;
-}
-
-.main-menu ul {
-    gap: 20px;
 }
 
 .auth-buttons a {
@@ -52,7 +48,7 @@ nav ul {
     color: white;
     text-decoration: none;
     padding: 10px;
-    background-color: #e10600; /* Botões em vermelho */
+    background-color: #e10600;
     border-radius: 4px;
 }
 
@@ -60,21 +56,20 @@ nav ul {
     background-color: #b00000;
 }
 
-/* Estilos da seção principal */
+/* Estilos principais */
 .main-content {
     display: flex;
-    justify-content: space-between; /* Espaçamento entre os blocos */
+    justify-content: space-between;
     gap: 20px;
 }
 
 .featured-article {
-    flex: 1; /* Ajuste de largura flexível */
+    flex: 2; /* Tamanho flexível para o Lawson */
+    max-width: 600px; /* Diminuí o tamanho máximo do Lawson */
 }
 
 .lawson-image-container {
-    position: relative;
     width: 100%;
-    max-width: 450px; /* Diminuí o tamanho máximo da imagem do Lawson */
 }
 
 .lawson-image-container img {
@@ -94,21 +89,21 @@ nav ul {
 
 /* Notícias relacionadas */
 .related-news {
-    display: flex; /* Altera para flexbox horizontal */
-    flex-direction: row; /* Garante que Russell e Horner fiquem lado a lado */
-    gap: 10px; /* Espaço entre eles */
+    display: flex;
+    flex-direction: row; /* Organiza os itens lado a lado */
+    gap: 10px; /* Espaço entre as notícias */
     flex: 1;
+    max-width: 400px; /* Ajusta o tamanho total das notícias relacionadas */
 }
 
 .related-item {
-    width: 100%;
-    max-width: 200px; /* Ajustei o tamanho máximo das imagens relacionadas */
+    flex: 1;
+    max-width: 150px; /* Limita a largura de cada item */
 }
 
 .related-item img {
     width: 100%;
     height: auto;
-    max-height: 120px; /* Diminuí a altura das imagens relacionadas */
 }
 
 h3 {
@@ -116,12 +111,12 @@ h3 {
     font-size: 1rem;
 }
 
-/* Estilos para as notícias adicionais */
+/* Notícias adicionais */
 .additional-news {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
-    gap: 20px; /* Espaço entre as notícias adicionais */
+    gap: 20px;
 }
 
 .additional-item {
