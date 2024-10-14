@@ -53,8 +53,9 @@ nav ul {
     background-color: #b00000;
 }
 
-/* Estilos principais */
+/* Espaço entre o menu e o conteúdo */
 .main-content {
+    margin-top: 30px; /* Adiciona espaço entre o menu e o conteúdo principal */
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -66,16 +67,6 @@ nav ul {
     margin-bottom: 20px;
 }
 
-.lawson-image-container {
-    position: relative;
-    width: 100%;
-}
-
-.lawson-image-container img {
-    width: 100%;
-    height: auto;
-}
-
 .article-details {
     background-color: white; /* Título fora da imagem, com fundo branco */
     color: black;
@@ -83,8 +74,7 @@ nav ul {
     box-sizing: border-box;
     font-weight: bold;
     font-size: 1.5rem;
-    margin-top: 15px;
-    text-align: left;
+    margin-bottom: 10px; /* Espaço abaixo do título */
 }
 
 /* Notícias relacionadas */
@@ -149,4 +139,3 @@ footer {
     text-align: center;
     padding: 20px;
 }
-
