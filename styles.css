@@ -49,14 +49,11 @@ nav a {
 /* Estilos da seção principal */
 .main-content {
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
     gap: 20px; /* Espaço entre os blocos */
 }
 
 .featured-article {
     flex: 2; /* A notícia de destaque ocupa mais espaço */
-    margin-right: 20px;
 }
 
 .lawson-image-container {
@@ -80,21 +77,24 @@ nav a {
 
 /* Notícias relacionadas */
 .related-news {
-    flex: 1; /* As notícias relacionadas ocupam menos espaço */
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Espaço entre os itens */
+    justify-content: space-between;
+    gap: 20px;
+    flex: 1;
 }
 
 .related-item {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .related-item img {
     width: 100%;
     height: auto;
+    max-height: 150px; /* Reduzindo o tamanho da imagem para caber ao lado */
 }
 
 h3 {
@@ -137,4 +137,3 @@ footer {
     text-align: center;
     padding: 20px;
 }
-
