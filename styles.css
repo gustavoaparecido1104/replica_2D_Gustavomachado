@@ -6,13 +6,12 @@ body {
 }
 
 header {
-    background-color: #000; /* Mantém o cabeçalho preto */
     color: #fff;
 }
 
 .header-top {
-    background-color: #e10600; /* Parte vermelha no topo */
-    color: white;
+    background-color: #fff; /* Parte branca: FIA e links relacionados */
+    color: black;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -20,8 +19,8 @@ header {
 }
 
 .header-bottom {
-    background-color: #fff; /* Parte branca abaixo */
-    color: #000;
+    background-color: #e10600; /* Parte vermelha: F1 logo e links principais */
+    color: white;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -34,13 +33,14 @@ nav ul {
     gap: 15px;
 }
 
-nav a {
-    color: #fff; /* Links na parte vermelha */
+.header-top nav a {
+    color: #000; /* Links na parte branca ficam pretos */
     text-decoration: none;
 }
 
 .header-bottom nav a {
-    color: #000; /* Links na parte branca */
+    color: #fff; /* Links na parte vermelha ficam brancos */
+    text-decoration: none;
 }
 
 .main-menu ul {
