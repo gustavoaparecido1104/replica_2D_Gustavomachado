@@ -131,43 +131,46 @@ main {
 
 .main-content {
     display: flex;
-    flex-direction: row; /* Alinhando itens em linha */
+    flex-direction: column;
     gap: 20px;
 }
 
-/* Imagem maior à esquerda */
 .featured-article {
-    flex: 1; /* Aumentando o tamanho da imagem principal */
-    position: relative;
-    border: 2px solid red; /* Borda vermelha */
-    padding: 10px; /* Espaçamento interno */
+    flex: 2; /* Aumentando o tamanho da imagem principal */
 }
 
-.featured-article img {
+.lawson-image-container {
+    border: 5px solid #ff0000; /* Borda vermelha */
+    position: relative; /* Para o título ficar sobre a imagem */
+    width: 50%; /* Ocupando 50% da largura */
+}
+
+.lawson-image-container img {
     width: 100%;
     height: auto;
 }
 
-.article-details {
+.article-title {
     position: absolute;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     width: 100%;
     padding: 15px;
-    text-align: center; /* Centraliza o texto */
+    text-align: center;
 }
 
-/* Duas imagens menores à direita */
+/* Ajustando as imagens menores à direita */
 .related-news {
     display: flex;
-    flex-direction: column; /* Alinhando imagens menores verticalmente */
+    flex-direction: row; /* Mudando para linha */
     gap: 20px; /* Espaço entre as imagens */
-    flex: 1;
+    margin-top: 20px; /* Espaço entre a imagem do Lawson e as imagens de Russell e Horner */
 }
 
 .related-item {
     flex: 1; /* Cada item ocupa o mesmo espaço */
+    max-width: 30%; /* Definindo largura máxima para evitar que as imagens fiquem muito grandes */
 }
 
 .related-item img {
@@ -180,7 +183,7 @@ main {
     margin-top: 10px;
 }
 
-/* Novas imagens adicionais em uma nova linha */
+/* Seção de notícias adicionais abaixo */
 .additional-news {
     display: flex;
     flex-direction: row; /* Alinhando horizontalmente */
