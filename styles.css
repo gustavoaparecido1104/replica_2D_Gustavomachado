@@ -146,6 +146,17 @@ nav ul {
     height: auto;
 }
 
+/* Rodapé para futuros conteúdos */
+.future-content {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+.future-content h2 {
+    margin: 0 0 10px 0;
+}
+
 /* Rodapé */
 footer {
     background-color: #000;
