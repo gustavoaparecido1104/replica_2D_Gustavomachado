@@ -94,10 +94,9 @@ nav ul {
 
 /* Notícias relacionadas */
 .related-news {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 10px;
+    display: flex; /* Altera para flexbox horizontal */
+    flex-direction: row; /* Garante que Russell e Horner fiquem lado a lado */
+    gap: 10px; /* Espaço entre eles */
     flex: 1;
 }
 
