@@ -139,7 +139,7 @@ main {
 .lawson-image-container {
     border: 5px solid #ff0000; /* Borda vermelha */
     position: relative; /* Para o título ficar sobre a imagem */
-    width: 50%; /* Ocupando 50% da largura */
+    width: 40%; /* Ocupando 40% da largura, pode ser ajustado */
 }
 
 .lawson-image-container img {
@@ -153,6 +153,7 @@ main {
     flex-direction: row; /* Mudando para linha */
     gap: 20px; /* Espaço entre as imagens */
     margin-top: 20px; /* Espaço entre a imagem do Lawson e as imagens de Russell e Horner */
+    justify-content: flex-start; /* Para que os itens fiquem alinhados à esquerda */
 }
 
 .related-item {
