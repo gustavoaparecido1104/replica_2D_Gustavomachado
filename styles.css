@@ -216,26 +216,8 @@ nav ul {
     text-transform: uppercase;
     margin-bottom: 20px;
     padding-bottom: 10px;
-}
-
-.editor-picks-title::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100px; /* Comprimento da linha horizontal */
-    height: 5px; /* Espessura da linha */
-    background-color: black; /* Cor preta na linha */
-}
-
-.editor-picks-title::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 100px; /* Alinhado com o fim da linha horizontal */
-    width: 5px; /* Espessura da linha vertical */
-    height: 40px; /* Altura da linha vertical */
-    background-color: black; /* Cor preta na linha */
+    border: 5px solid red; /* Borda vermelha em volta do título */
+    border-radius: 5px; /* Bordas arredondadas */
 }
 
 /* Remover borda vermelha à esquerda do botão */
