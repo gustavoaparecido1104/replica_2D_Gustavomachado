@@ -131,49 +131,36 @@ nav ul {
     object-fit: cover; /* Para garantir que as imagens mantenham a proporção e preencham o espaço */
 }
 
-/* Estilo para o botão VIEW LATEST NEWS */
-.view-latest-news-btn {
-    display: inline-block;
-    background-color: #e10600;
-    color: white;
-    padding: 12px 20px;
-    font-size: 1rem;
-    font-weight: bold;
-    border: none;
-    margin-top: 20px; /* Aumentando o espaçamento entre o botão e o texto do Verstappen */
-    text-transform: uppercase;
-    cursor: pointer;
-}
-
-.view-latest-news-btn:hover {
-    background-color: #b00000;
-}
-
-/* Container roxo com texto à esquerda e imagem à direita */
+/* Novo estilo para o container com degradê */
 .f3-highlight-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: purple;
+    background: linear-gradient(to right, purple 0%, #800080 50%, #4b0082 100%); /* Degradê de roxo para índigo */
     color: white;
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
+    font-family: 'Roboto', sans-serif; /* Mesma fonte para texto e imagem */
 }
 
 .f3-highlight-text {
     flex: 1;
     max-width: 50%;
+    font-size: 1.2rem; /* Ajuste de tamanho da fonte para deixar parecido */
 }
 
 .f3-highlight-image {
     flex: 1;
     max-width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .f3-highlight-image img {
     width: 100%;
     height: auto;
+    border-radius: 5px; /* Bordas arredondadas para a imagem */
 }
 
 .watch-now-btn {
@@ -186,16 +173,26 @@ nav ul {
     font-weight: bold;
     cursor: pointer;
     border-radius: 3px;
+    font-family: 'Roboto', sans-serif; /* Mesma fonte no botão */
 }
 
 .watch-now-btn:hover {
     background-color: #ddd;
 }
 
-/* Footer */
+/* Estilo do rodapé */
 footer {
+    background-color: #000;
+    color: white;
     text-align: center;
-    margin-top: 20px;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.future-content {
+    background-color: #eee;
     padding: 20px;
-    background-color: #f1f1f1;
+    text-align: center;
 }
