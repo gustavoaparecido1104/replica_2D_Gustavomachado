@@ -110,8 +110,8 @@ nav ul {
 
 .related-image {
     width: 100%;
-    height: auto; 
-    object-fit: cover;
+    height: 200px; /* Altura uniforme para todas as imagens */
+    object-fit: cover; /* Ajuste para que as imagens mantenham a proporção e preencham o espaço */
 }
 
 .related-item h3 {
@@ -126,8 +126,9 @@ nav ul {
 }
 
 .additional-image {
-    width: 420px; /* Tamanho ajustado */
-    height: 236px;
+    width: 100%; /* Todas as imagens vão ocupar a largura total do container */
+    height: 200px; /* Altura uniforme para as imagens adicionais */
+    object-fit: cover; /* Para garantir que as imagens mantenham a proporção e preencham o espaço */
 }
 
 /* Estilo para o botão VIEW LATEST NEWS */
@@ -141,7 +142,7 @@ nav ul {
     font-weight: bold;
     border: none;
     cursor: pointer;
-    margin-top: 20px; /* Aumentado o espaço entre a imagem do Verstappen e o botão */
+    margin-top: 20px; /* Espaço maior entre a imagem do Verstappen e o botão */
 }
 
 .view-latest-news-btn:hover {
@@ -175,5 +176,4 @@ footer {
     background-color: #000;
     color: #fff;
     text-align: center;
-    padding: 10px;
 }
