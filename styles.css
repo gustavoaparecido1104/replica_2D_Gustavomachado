@@ -134,46 +134,69 @@ nav ul {
 /* Estilo para o botão VIEW LATEST NEWS */
 .view-latest-news-btn {
     display: inline-block;
-    background-color: #e10600; /* Vermelho do botão */
+    background-color: #e10600;
     color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-transform: uppercase;
+    padding: 12px 20px;
+    font-size: 1rem;
     font-weight: bold;
     border: none;
+    margin-top: 20px; /* Aumentando o espaçamento entre o botão e o texto do Verstappen */
+    text-transform: uppercase;
     cursor: pointer;
-    margin-top: 20px; /* Espaço maior entre a imagem do Verstappen e o botão */
 }
 
 .view-latest-news-btn:hover {
-    background-color: #b00000; /* Cor mais escura ao passar o mouse */
+    background-color: #b00000;
 }
 
-/* Seção de história */
-.history-section {
-    margin-top: 40px;
-    text-align: center;
+/* Container roxo com texto à esquerda e imagem à direita */
+.f3-highlight-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
 }
 
-.history-image img {
+.f3-highlight-text {
+    flex: 1;
+    max-width: 50%;
+}
+
+.f3-highlight-image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.f3-highlight-image img {
     width: 100%;
     height: auto;
 }
 
-/* Rodapé para futuros conteúdos */
-.future-content {
-    background-color: #f8f8f8;
-    padding: 20px;
-    text-align: center;
+.watch-now-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #fff;
+    color: purple;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
 }
 
-.future-content h2 {
-    margin: 0 0 10px 0;
+.watch-now-btn:hover {
+    background-color: #ddd;
 }
 
-/* Rodapé */
+/* Footer */
 footer {
-    background-color: #000;
-    color: #fff;
     text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
 }
+
