@@ -110,8 +110,8 @@ nav ul {
 
 .related-image {
     width: 100%;
-    height: 200px; /* Altura uniforme para todas as imagens */
-    object-fit: cover; /* Ajuste para que as imagens mantenham a proporção e preencham o espaço */
+    height: auto; 
+    object-fit: cover;
 }
 
 .related-item h3 {
@@ -126,73 +126,54 @@ nav ul {
 }
 
 .additional-image {
-    width: 100%; /* Todas as imagens vão ocupar a largura total do container */
-    height: 200px; /* Altura uniforme para as imagens adicionais */
-    object-fit: cover; /* Para garantir que as imagens mantenham a proporção e preencham o espaço */
+    width: 420px; /* Tamanho ajustado */
+    height: 236px;
 }
 
-/* Novo estilo para o container com degradê */
-.f3-highlight-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: linear-gradient(to right, purple 0%, #800080 50%, #4b0082 100%); /* Degradê de roxo para índigo */
-    color: white;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 5px;
-    font-family: 'Roboto', sans-serif; /* Mesma fonte para texto e imagem */
-}
-
-.f3-highlight-text {
-    flex: 1;
-    max-width: 50%;
-    font-size: 1.2rem; /* Ajuste de tamanho da fonte para deixar parecido */
-}
-
-.f3-highlight-image {
-    flex: 1;
-    max-width: 50%;
-    display: flex;
-    justify-content: center;
-}
-
-.f3-highlight-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px; /* Bordas arredondadas para a imagem */
-}
-
-.watch-now-btn {
+/* Estilo para o botão VIEW LATEST NEWS */
+.view-latest-news-btn {
     display: inline-block;
-    margin-top: 10px;
-    background-color: #fff;
-    color: purple;
-    padding: 10px 15px;
+    background-color: #e10600; /* Vermelho do botão */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
     text-transform: uppercase;
     font-weight: bold;
+    border: none;
     cursor: pointer;
-    border-radius: 3px;
-    font-family: 'Roboto', sans-serif; /* Mesma fonte no botão */
+    margin-top: 20px; /* Aumentado o espaço entre a imagem do Verstappen e o botão */
 }
 
-.watch-now-btn:hover {
-    background-color: #ddd;
+.view-latest-news-btn:hover {
+    background-color: #b00000; /* Cor mais escura ao passar o mouse */
 }
 
-/* Estilo do rodapé */
-footer {
-    background-color: #000;
-    color: white;
+/* Seção de história */
+.history-section {
+    margin-top: 40px;
     text-align: center;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
 
+.history-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* Rodapé para futuros conteúdos */
 .future-content {
-    background-color: #eee;
+    background-color: #f8f8f8;
     padding: 20px;
     text-align: center;
+}
+
+.future-content h2 {
+    margin: 0 0 10px 0;
+}
+
+/* Rodapé */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
