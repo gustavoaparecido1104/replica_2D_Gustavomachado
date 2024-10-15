@@ -212,7 +212,7 @@ nav ul {
     font-size: 2rem;
     font-weight: bold;
     position: relative;
-    color: #e10600;
+    color: black; /* Cor preta no título */
     text-transform: uppercase;
     margin-bottom: 20px;
     padding-bottom: 10px;
@@ -223,9 +223,9 @@ nav ul {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100px; /* Comprimento da linha horizontal à esquerda */
+    width: 100px; /* Comprimento da linha horizontal */
     height: 5px; /* Espessura da linha */
-    background-color: #e10600;
+    background-color: black; /* Cor preta na linha */
 }
 
 .editor-picks-title::after {
@@ -235,14 +235,10 @@ nav ul {
     left: 100px; /* Alinhado com o fim da linha horizontal */
     width: 5px; /* Espessura da linha vertical */
     height: 40px; /* Altura da linha vertical */
-    background-color: #e10600;
+    background-color: black; /* Cor preta na linha */
 }
 
-/* Borda vermelha em volta do Editor's Picks */
-.editor-picks {
-    position: relative;
-    padding: 20px;
-    border: 10px solid #e10600; /* Borda vermelha em volta */
-    margin: 20px 0;
-    border-radius: 10px;
+/* Remover borda vermelha à esquerda do botão */
+.lawson-image-container {
+    border-left: none; /* Removida a borda vermelha à esquerda */
 }
