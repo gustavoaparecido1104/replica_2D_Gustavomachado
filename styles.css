@@ -95,53 +95,40 @@ nav ul {
 
 /* Notícias relacionadas */
 .related-news {
-    display: flex;
-    flex-wrap: wrap; 
-    gap: 20px;
     flex: 1;
-    justify-content: space-between;
+    max-width: 300px; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .related-item {
-    flex: 1;
-    text-align: center;
-    max-width: 48%;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 4px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
 }
 
 .related-image {
-    width: 100%;
-    height: 200px; /* Altura uniforme para todas as imagens */
-    object-fit: cover; /* Ajuste para que as imagens mantenham a proporção e preencham o espaço */
+    width: 100%; /* Imagens não distorçam */
 }
 
-.related-item h3 {
-    font-size: 1rem;
-    margin: 10px 0 0 0;
-}
-
-/* Estilos para as notícias adicionais */
-.additional-item {
-    text-align: center;
-    margin-top: 10px; /* Espaço entre a imagem da notícia e a nova imagem */
-}
-
-.additional-image {
-    width: 100%; /* Todas as imagens vão ocupar a largura total do container */
-    height: 200px; /* Altura uniforme para as imagens adicionais */
-    object-fit: cover; /* Para garantir que as imagens mantenham a proporção e preencham o espaço */
-}
-
-/* Novo estilo para o container com degradê */
+/* Novo container com degradê */
 .f3-highlight-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to right, purple 0%, #800080 50%, #4b0082 100%); /* Degradê de roxo para índigo */
-    color: white;
+    background: linear-gradient(to right, #ff7e00, #ff007e); /* Degradê de cores */
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif; /* Mesma fonte para texto e imagem */
+    border: 5px solid red; /* Borda ao redor */
+    border-left: none; /* Sem borda à esquerda */
+    max-width: 90%; /* Não ocupa toda a largura */
+    margin-left: auto; /* Centraliza o container na página */
+    margin-right: auto; /* Centraliza o container na página */
 }
 
 .f3-highlight-text {
@@ -195,4 +182,19 @@ footer {
     background-color: #eee;
     padding: 20px;
     text-align: center;
+}
+
+/* Estilo do botão VIEW LATEST NEWS */
+.view-latest-news-btn {
+    background-color: #e10600; /* Vermelho */
+    color: white; /* Texto em branco */
+    padding: 10px 15px; /* Espaçamento do botão */
+    border: none; /* Sem borda */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Mão ao passar o mouse */
+    margin-top: 10px; /* Espaço acima do botão */
+}
+
+.view-latest-news-btn:hover {
+    background-color: #b00000; /* Tom mais escuro ao passar o mouse */
 }
