@@ -111,33 +111,19 @@ nav ul {
 .related-image {
     width: 100%;
     height: 200px; /* Altura uniforme para todas as imagens */
-    object-fit: cover; /* Ajuste para que as imagens mantenham a proporção e preencham o espaço */
+    object-fit: cover; /* Ajuste para que as imagens não distorçam */
 }
 
-.related-item h3 {
-    font-size: 1rem;
-    margin: 10px 0 0 0;
-}
-
-/* Estilos para as notícias adicionais */
 .additional-item {
-    text-align: center;
-    margin-top: 10px; /* Espaço entre a imagem da notícia e a nova imagem */
+    margin-top: 10px;
 }
 
-.additional-image {
-    width: 100%; /* Todas as imagens vão ocupar a largura total do container */
-    height: 200px; /* Altura uniforme para as imagens adicionais */
-    object-fit: cover; /* Para garantir que as imagens mantenham a proporção e preencham o espaço */
-}
-
-/* Novo estilo para o container com degradê */
+/* Novo container com degradê */
 .f3-highlight-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to right, purple 0%, #800080 50%, #4b0082 100%); /* Degradê de roxo para índigo */
-    color: white;
+    background: linear-gradient(to right, #ff7e00, #ff007e); /* Degradê de cores */
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
@@ -195,4 +181,19 @@ footer {
     background-color: #eee;
     padding: 20px;
     text-align: center;
+}
+
+/* Estilo do botão VIEW LATEST NEWS */
+.view-latest-news-btn {
+    background-color: #e10600; /* Vermelho */
+    color: white; /* Texto em branco */
+    padding: 10px 15px; /* Espaçamento do botão */
+    border: none; /* Sem borda */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Mão ao passar o mouse */
+    margin-top: 10px; /* Espaço acima do botão */
+}
+
+.view-latest-news-btn:hover {
+    background-color: #b00000; /* Tom mais escuro ao passar o mouse */
 }
