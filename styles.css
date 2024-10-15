@@ -252,3 +252,14 @@ nav ul {
     font-size: 1.2rem; /* Ajuste do tamanho da fonte */
     color: black; /* Cor dos novos textos */
 }
+
+/* Linha que dá a volta */
+.line-wrap {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 5px; /* Espessura da linha */
+    height: calc(100vh - 300px); /* Altura até a parte inferior da imagem do botão */
+    background-color: red; /* Cor da linha */
+    z-index: -1; /* Coloca a linha atrás do conteúdo */
+}
