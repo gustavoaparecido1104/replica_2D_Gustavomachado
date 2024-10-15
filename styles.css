@@ -58,6 +58,7 @@ nav ul {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    margin-top: 20px; /* Espaço adicionado entre o conteúdo e o menu */
 }
 
 .featured-article {
@@ -124,8 +125,8 @@ nav ul {
 }
 
 .additional-image {
-    width: 420px; /* Largura fixa para as novas imagens */
-    height: 236px; /* Altura fixa para as novas imagens */
+    width: 210px; /* Largura ajustada para 210px */
+    height: 118px; /* Altura ajustada para 118px */
 }
 
 /* Seção de história */
