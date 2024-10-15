@@ -140,83 +140,42 @@ nav ul {
     text-transform: uppercase;
     font-weight: bold;
     border: none;
-    cursor: pointer;
-    margin-top: 20px; /* Aumentado o espaço entre a imagem do Verstappen e o botão */
+    border-radius: 5px;
+    margin-top: 20px; /* Adicionado para espaço acima */
 }
 
-.view-latest-news-btn:hover {
-    background-color: #b00000; /* Cor mais escura ao passar o mouse */
-}
-
-/* Novo Container */
+/* Novo container */
 .custom-container {
     display: flex;
     align-items: center;
-    background: rgb(88, 28, 135);
-    background: linear-gradient(to right, rgb(88, 28, 135), #ffffff); /* Degradê */
+    background-color: rgb(88, 28, 135);
+    color: white;
     padding: 20px;
     border-radius: 10px;
-    margin: 20px 0;
-    border: 10px solid purple; /* Borda roxa */
-    border-left: none; /* Remove a borda do lado esquerdo */
-    position: relative; /* Para adicionar uma borda interna */
-}
-
-.custom-container:before {
-    content: '';
-    position: absolute;
-    left: 0; /* Alinhamento à esquerda */
-    top: 0; /* Alinhamento ao topo */
-    right: 0; /* Alinhamento à direita */
-    bottom: 0; /* Alinhamento embaixo */
-    border: 5px solid purple; /* Borda interna */
-    border-left: none; /* Remove a borda do lado esquerdo */
-    border-radius: 10px; /* Borda arredondada */
-    z-index: -1; /* Coloca a borda atrás do container */
+    margin-top: 20px; /* Espaço acima do novo container */
 }
 
 .text-content {
-    flex: 1; /* Faz com que o conteúdo de texto ocupe mais espaço */
-    color: white; /* Cor do texto */
-}
-
-.image-content {
-    flex: 1; /* Faz com que a imagem ocupe espaço igual ao conteúdo de texto */
-    text-align: right; /* Alinha a imagem à direita */
+    flex: 1;
+    margin-right: 20px; /* Espaço à direita */
 }
 
 .image-content img {
-    max-width: 100%; /* Mantém a imagem responsiva */
+    width: 200px; /* Ajuste no tamanho da imagem */
     height: auto;
+    border-radius: 8px; /* Bordas arredondadas */
 }
 
-.watch-now-btn {
-    display: inline-block;
-    background-color: #ffffff; /* Cor do botão */
-    color: #000000;
-    padding: 10px 20px;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    margin-top: 10px; /* Espaço acima do botão */
-}
-
-.watch-now-btn:hover {
-    background-color: #b00000; /* Cor mais escura ao passar o mouse */
-}
-
-/* Estilos para o rodapé */
+/* Estilo para o rodapé */
 .future-content {
+    background-color: #f2f2f2;
     padding: 20px;
-    background-color: #f0f0f0;
+    text-align: center;
 }
 
 footer {
-    background-color: #333;
+    background-color: #222;
     color: white;
     text-align: center;
     padding: 10px;
-    position: relative;
 }
