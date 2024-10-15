@@ -148,32 +148,59 @@ nav ul {
     background-color: #b00000; /* Cor mais escura ao passar o mouse */
 }
 
-/* Seção de história */
-.history-section {
-    margin-top: 40px;
-    text-align: center;
+/* Novo Container */
+.custom-container {
+    display: flex;
+    align-items: center;
+    background: rgb(88, 28, 135);
+    background: linear-gradient(to right, rgb(88, 28, 135), #ffffff); /* Degradê */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
 }
 
-.history-image img {
-    width: 100%;
+.text-content {
+    flex: 1; /* Faz com que o conteúdo de texto ocupe mais espaço */
+    color: white; /* Cor do texto */
+}
+
+.image-content {
+    flex: 1; /* Faz com que a imagem ocupe espaço igual ao conteúdo de texto */
+    text-align: right; /* Alinha a imagem à direita */
+}
+
+.image-content img {
+    max-width: 100%; /* Mantém a imagem responsiva */
     height: auto;
 }
 
-/* Rodapé para futuros conteúdos */
-.future-content {
-    background-color: #f8f8f8;
-    padding: 20px;
+.watch-now-btn {
+    display: inline-block;
+    background-color: #e10600; /* Cor do botão */
+    color: white;
+    padding: 10px 20px;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px; /* Espaço acima do botão */
 }
 
-.future-content h2 {
-    margin: 0 0 10px 0;
+.watch-now-btn:hover {
+    background-color: #b00000; /* Cor mais escura ao passar o mouse */
 }
 
-/* Rodapé */
+/* Estilos para o rodapé */
+.future-content {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
 footer {
-    background-color: #000;
-    color: #fff;
+    background-color: #333;
+    color: white;
     text-align: center;
     padding: 10px;
+    position: relative;
 }
