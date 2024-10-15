@@ -212,17 +212,32 @@ nav ul {
     font-size: 2rem;
     font-weight: bold;
     position: relative;
-    color: black; /* Cor preta no título */
+    color: black; /* Cor do título */
     text-transform: uppercase;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border: 5px solid red; /* Borda vermelha em volta do título */
-    border-radius: 5px; /* Bordas arredondadas */
 }
 
-/* Remover borda vermelha à esquerda do botão */
-.lawson-image-container {
-    border-left: none; /* Removida a borda vermelha à esquerda */
+/* Borda vermelha ao redor do título */
+.editor-picks-title::before {
+    content: '';
+    position: absolute;
+    left: 0; /* Começa no lado esquerdo */
+    top: 100%; /* Coloca a linha abaixo do título */
+    width: 100%; /* Largura da linha igual à largura do título */
+    height: 5px; /* Espessura da linha */
+    background-color: red; /* Cor da linha */
+}
+
+/* Linha que desce do título para a direita */
+.editor-picks-title::after {
+    content: '';
+    position: absolute;
+    left: 100%; /* Começa no lado direito do título */
+    top: 0; /* Alinha com o topo do título */
+    width: 5px; /* Espessura da linha vertical */
+    height: 100%; /* Altura da linha vertical */
+    background-color: red; /* Cor da linha */
 }
 
 /* Separação entre os textos */
