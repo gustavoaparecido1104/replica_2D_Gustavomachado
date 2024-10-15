@@ -85,6 +85,7 @@ nav ul {
     margin-top: 0;
     position: relative;
     border-right: 5px solid red; /* Borda à direita da imagem */
+    padding-bottom: 40px; /* Ajuste para cobrir a altura desejada */
 }
 
 .lawson-image {
@@ -129,6 +130,24 @@ nav ul {
     height: 236px;
 }
 
+/* Estilo para o botão VIEW LATEST NEWS */
+.view-latest-news-btn {
+    display: inline-block;
+    background-color: #e10600; /* Vermelho do botão */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px; /* Espaço entre a imagem do Verstappen e o botão */
+}
+
+.view-latest-news-btn:hover {
+    background-color: #b00000; /* Cor mais escura ao passar o mouse */
+}
+
 /* Seção de história */
 .history-section {
     margin-top: 40px;
@@ -156,5 +175,3 @@ footer {
     background-color: #000;
     color: #fff;
     text-align: center;
-    padding: 20px;
-}
