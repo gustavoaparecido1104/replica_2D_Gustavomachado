@@ -159,6 +159,20 @@ nav ul {
     margin: 20px 0;
     border: 5px solid purple; /* Borda roxa */
     border-left: none; /* Remove a borda do lado esquerdo */
+    position: relative; /* Para adicionar uma borda interna */
+}
+
+.custom-container:before {
+    content: '';
+    position: absolute;
+    left: 0; /* Alinhamento à esquerda */
+    top: 0; /* Alinhamento ao topo */
+    right: 0; /* Alinhamento à direita */
+    bottom: 0; /* Alinhamento embaixo */
+    border: 5px solid purple; /* Borda interna */
+    border-left: none; /* Remove a borda do lado esquerdo */
+    border-radius: 10px; /* Borda arredondada */
+    z-index: -1; /* Coloca a borda atrás do container */
 }
 
 .text-content {
