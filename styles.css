@@ -95,27 +95,23 @@ nav ul {
 
 /* Notícias relacionadas */
 .related-news {
-    display: flex;
-    flex-wrap: wrap; 
-    gap: 20px;
     flex: 1;
-    justify-content: space-between;
+    max-width: 300px; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .related-item {
-    flex: 1;
-    text-align: center;
-    max-width: 48%;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 4px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
 }
 
 .related-image {
-    width: 100%;
-    height: 200px; /* Altura uniforme para todas as imagens */
-    object-fit: cover; /* Ajuste para que as imagens não distorçam */
-}
-
-.additional-item {
-    margin-top: 10px;
+    width: 100%; /* Imagens não distorçam */
 }
 
 /* Novo container com degradê */
