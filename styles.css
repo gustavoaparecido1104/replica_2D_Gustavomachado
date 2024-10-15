@@ -236,7 +236,7 @@ footer {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100px; /* Comprimento da linha horizontal à esquerda */
+    width: 100px; /* Comprimento da linha horizontal à direita */
     height: 5px; /* Espessura da linha */
     background-color: #e10600;
 }
@@ -250,3 +250,4 @@ footer {
     height: 40px; /* Altura da linha vertical */
     background-color: #e10600;
 }
+
