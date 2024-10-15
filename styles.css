@@ -124,11 +124,6 @@ nav ul {
     margin-top: 20px;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif; /* Mesma fonte para texto e imagem */
-    border: 5px solid red; /* Borda ao redor */
-    border-left: none; /* Sem borda à esquerda */
-    max-width: 90%; /* Não ocupa toda a largura */
-    margin-left: auto; /* Centraliza o container na página */
-    margin-right: auto; /* Centraliza o container na página */
 }
 
 .f3-highlight-text {
