@@ -77,14 +77,14 @@ nav ul {
     font-weight: bold;
     font-size: 1.5rem;
     margin-bottom: 10px;
-    border-top: 5px solid red; /* Borda apenas em cima */
-    border-right: 5px solid red; /* Borda à direita */
+    border-top: 10px solid red; /* Borda apenas em cima */
+    border-right: 10px solid red; /* Borda à direita */
 }
 
 .lawson-image-container {
     margin-top: 0;
     position: relative;
-    border-right: 5px solid red; /* Borda à direita da imagem */
+    border-right: 10px solid red; /* Borda à direita da imagem */
     padding-bottom: 40px; /* Ajuste para cobrir a altura desejada */
 }
 
@@ -157,7 +157,7 @@ nav ul {
     padding: 20px;
     border-radius: 10px;
     margin: 20px 0;
-    border: 5px solid purple; /* Borda roxa */
+    border: 10px solid purple; /* Borda roxa */
     border-left: none; /* Remove a borda do lado esquerdo */
     position: relative; /* Para adicionar uma borda interna */
 }
@@ -192,8 +192,8 @@ nav ul {
 
 .watch-now-btn {
     display: inline-block;
-    background-color: #e10600; /* Cor do botão */
-    color: white;
+    background-color: #ffffff; /* Cor do botão */
+    color: #000000;
     padding: 10px 20px;
     text-align: center;
     text-transform: uppercase;
