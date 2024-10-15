@@ -157,6 +157,8 @@ nav ul {
     padding: 20px;
     border-radius: 10px;
     margin: 20px 0;
+    border: 5px solid purple; /* Borda roxa */
+    border-left: none; /* Remove a borda do lado esquerdo */
 }
 
 .text-content {
