@@ -58,6 +58,7 @@ nav ul {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    margin-top: 20px; /* Espaço entre o conteúdo e o menu */
 }
 
 .featured-article {
