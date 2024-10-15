@@ -93,13 +93,6 @@ nav ul {
     height: auto;
 }
 
-/* Adicionando título "News" em vermelho acima de cada item relacionado */
-.related-item h2 {
-    color: red; /* Cor vermelha */
-    font-size: 1.2rem; /* Tamanho da fonte do título */
-    margin-bottom: 5px; /* Espaçamento abaixo do título */
-}
-
 /* Notícias relacionadas */
 .related-news {
     display: flex;
