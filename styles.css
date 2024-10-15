@@ -220,3 +220,33 @@ footer {
     padding: 10px;
     position: relative;
 }
+/* Estilo para o título Editor's Picks */
+.editor-picks-title {
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    color: #e10600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.editor-picks-title::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100px; /* Comprimento da linha horizontal à esquerda */
+    height: 5px; /* Espessura da linha */
+    background-color: #e10600;
+}
+
+.editor-picks-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 100px; /* Alinhado com o fim da linha horizontal */
+    width: 5px; /* Espessura da linha vertical */
+    height: 40px; /* Altura da linha vertical */
+    background-color: #e10600;
+}
