@@ -207,19 +207,6 @@ nav ul {
     background-color: #b00000; /* Cor mais escura ao passar o mouse */
 }
 
-/* Estilos para o rodapé */
-.future-content {
-    padding: 20px;
-    background-color: #f0f0f0;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-}
 /* Estilo para o título Editor's Picks */
 .editor-picks-title {
     font-size: 2rem;
@@ -231,7 +218,6 @@ footer {
     padding-bottom: 10px;
 }
 
-/* Linha que começa à esquerda, vai para a direita e desce */
 .editor-picks-title::before {
     content: '';
     position: absolute;
@@ -248,27 +234,15 @@ footer {
     bottom: 0;
     left: 100px; /* Alinhado com o fim da linha horizontal */
     width: 5px; /* Espessura da linha vertical */
-    height: 40px; /* Altura da linha vertical até onde a imagem começa */
+    height: 40px; /* Altura da linha vertical */
     background-color: #e10600;
 }
 
-/* Nova linha que desce para a direita e envolve a imagem */
-.pick-item:first-child::before {
-    content: '';
-    position: absolute;
-    top: 0; /* Alinha ao topo da imagem */
-    left: 600px; /* Largura da imagem do Button */
-    width: 5px; /* Espessura da linha vertical */
-    height: 600px; /* Altura da linha para contornar a imagem */
-    background-color: #e10600;
-}
-
-.pick-item:first-child::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 600px; /* Comprimento da linha horizontal embaixo da imagem */
-    height: 5px; /* Espessura da linha */
-    background-color: #e10600;
+/* Borda vermelha em volta do Editor's Picks */
+.editor-picks {
+    position: relative;
+    padding: 20px;
+    border: 10px solid #e10600; /* Borda vermelha em volta */
+    margin: 20px 0;
+    border-radius: 10px;
 }
