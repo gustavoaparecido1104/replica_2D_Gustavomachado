@@ -242,3 +242,16 @@ nav ul {
 .lawson-image-container {
     border-left: none; /* Removida a borda vermelha à esquerda */
 }
+
+/* Separação entre os textos */
+.text-block {
+    margin-bottom: 30px; /* Espaço entre cada bloco de texto */
+    font-size: 1.2rem; /* Ajuste do tamanho da fonte */
+}
+
+/* Estilo para os novos textos */
+.new-text-block {
+    margin-bottom: 30px; /* Espaço entre cada novo bloco de texto */
+    font-size: 1.2rem; /* Ajuste do tamanho da fonte */
+    color: black; /* Cor dos novos textos */
+}
