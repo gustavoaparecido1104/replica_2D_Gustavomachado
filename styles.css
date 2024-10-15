@@ -53,7 +53,7 @@ nav ul {
     background-color: #b00000;
 }
 
-/* Estilos principais */
+/* Espaço entre o menu e o conteúdo */
 .main-content {
     display: flex;
     justify-content: space-between;
@@ -125,8 +125,8 @@ nav ul {
 }
 
 .additional-image {
-    width: 420px; /* Largura ajustada para 210px */
-    height: 236px; /* Altura ajustada para 118px */
+    width: 420px; /* Tamanho ajustado */
+    height: 236px;
 }
 
 /* Seção de história */
