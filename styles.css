@@ -110,8 +110,8 @@ nav ul {
 
 .related-image {
     width: 100%;
-    height: 200px; /* Altura uniforme para todas as imagens */
-    object-fit: cover; /* Ajuste para que as imagens mantenham a proporção e preencham o espaço */
+    height: auto; 
+    object-fit: cover;
 }
 
 .related-item h3 {
@@ -126,48 +126,54 @@ nav ul {
 }
 
 .additional-image {
-    width: 100%; /* Todas as imagens vão ocupar a largura total do container */
-    height: 200px; /* Altura uniforme para as imagens adicionais */
-    object-fit: cover; /* Para garantir que as imagens mantenham a proporção e preencham o espaço */
+    width: 420px; /* Tamanho ajustado */
+    height: 236px;
 }
 
-/* Novo estilo para o container com degradê */
-.f3-highlight-wrapper {
-    background-color: transparent; /* Para permitir que a borda apareça */
-    border: 5px solid rgb(88, 28, 135); /* Borda roxa */
-    border-radius: 20px; /* Raio da borda para curvar os cantos */
-    padding: 20px; /* Espaçamento interno */
-    margin: 20px 0; /* Margem superior e inferior */
-}
-
-/* Aplicando estilo à .f3-highlight-container para se ajustar ao novo contêiner */
-.f3-highlight-container {
-    background: linear-gradient(to right, purple 0%, #800080 50%, #4b0082 100%); /* Degradê de roxo para índigo */
-    color: white;
-    padding: 20px; /* Ajuste para o espaçamento interno */
-    border-radius: 5px; /* Bordas arredondadas para o conteúdo interno */
-}
-
-/* Estilo do texto e imagem de destaque */
-.f3-highlight-text, .f3-highlight-image {
-    margin: 0; /* Garantir que não haja margens adicionais */
-}
-
-/* Botão "VIEW LATEST NEWS" */
+/* Estilo para o botão VIEW LATEST NEWS */
 .view-latest-news-btn {
-    background-color: red; 
-    color: white; 
-    border: none; 
-    padding: 10px 20px; 
-    cursor: pointer; 
-    margin-top: 15px; /* Espaço adicional entre o texto e o botão */
+    display: inline-block;
+    background-color: #e10600; /* Vermelho do botão */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px; /* Aumentado o espaço entre a imagem do Verstappen e o botão */
 }
 
-/* Estilo do botão "Watch Now" */
-.watch-now-btn {
-    background-color: #e10600; 
-    color: white; 
-    border: none; 
-    padding: 10px 20px; 
-    cursor: pointer; 
+.view-latest-news-btn:hover {
+    background-color: #b00000; /* Cor mais escura ao passar o mouse */
+}
+
+/* Seção de história */
+.history-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.history-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* Rodapé para futuros conteúdos */
+.future-content {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+.future-content h2 {
+    margin: 0 0 10px 0;
+}
+
+/* Rodapé */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
