@@ -234,15 +234,15 @@ nav ul {
     content: '';
     position: absolute;
     left: 100%; /* Começa no lado direito do título */
-    top: 0; /* Alinha com o topo do título */
+    top: 5px; /* Alinhado com o topo da linha */
     width: 5px; /* Espessura da linha vertical */
-    height: 100%; /* Altura da linha vertical */
+    height: calc(100vh - 200px); /* Altura da linha vertical até embaixo da imagem do botão */
     background-color: red; /* Cor da linha */
 }
 
 /* Separação entre os textos */
 .text-block {
-    margin-bottom: 30px; /* Espaço entre cada bloco de texto */
+    margin-bottom: 20px; /* Ajuste o espaço entre cada bloco de texto */
     font-size: 1.2rem; /* Ajuste do tamanho da fonte */
 }
 
