@@ -231,12 +231,13 @@ footer {
     padding-bottom: 10px;
 }
 
+/* Linha que começa à esquerda, vai para a direita e desce */
 .editor-picks-title::before {
     content: '';
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100px; /* Comprimento da linha horizontal à direita */
+    width: 100px; /* Comprimento da linha horizontal à esquerda */
     height: 5px; /* Espessura da linha */
     background-color: #e10600;
 }
@@ -247,7 +248,27 @@ footer {
     bottom: 0;
     left: 100px; /* Alinhado com o fim da linha horizontal */
     width: 5px; /* Espessura da linha vertical */
-    height: 40px; /* Altura da linha vertical */
+    height: 40px; /* Altura da linha vertical até onde a imagem começa */
     background-color: #e10600;
 }
 
+/* Nova linha que desce para a direita e envolve a imagem */
+.pick-item:first-child::before {
+    content: '';
+    position: absolute;
+    top: 0; /* Alinha ao topo da imagem */
+    left: 600px; /* Largura da imagem do Button */
+    width: 5px; /* Espessura da linha vertical */
+    height: 600px; /* Altura da linha para contornar a imagem */
+    background-color: #e10600;
+}
+
+.pick-item:first-child::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 600px; /* Comprimento da linha horizontal embaixo da imagem */
+    height: 5px; /* Espessura da linha */
+    background-color: #e10600;
+}
