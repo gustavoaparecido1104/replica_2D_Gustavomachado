@@ -53,7 +53,7 @@ nav ul {
     background-color: #b00000;
 }
 
-/* Espaço entre o menu e o conteúdo */
+/* Estilos principais */
 .main-content {
     display: flex;
     justify-content: space-between;
@@ -92,6 +92,13 @@ nav ul {
     height: auto;
 }
 
+/* Classe para borda fina ao redor do texto */
+.text-border {
+    border: 1px solid lightgray; /* Borda fina e cinza */
+    padding: 10px; /* Espaço ao redor do texto */
+    border-radius: 8px; /* Cantos arredondados */
+}
+
 /* Notícias relacionadas */
 .related-news {
     display: flex;
@@ -125,8 +132,8 @@ nav ul {
 }
 
 .additional-image {
-    width: 420px; /* Tamanho ajustado */
-    height: 236px;
+    width: 420px; /* Largura ajustada para 420px */
+    height: 236px; /* Altura ajustada para 236px */
 }
 
 /* Seção de história */
