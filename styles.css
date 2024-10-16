@@ -437,8 +437,15 @@ footer {
     text-decoration: underline;
 }
 
-.footer-bottom-section p {
-    font-size: 0.8rem;
-    color: #aaa;
-    margin: 0;
+.footer-bottom-section {
+    display: flex;
+    justify-content: space-between; /* Alinha os itens nas extremidades */
+    align-items: center; /* Alinha verticalmente */
+    padding-top: 20px; /* Espaçamento superior */
 }
+
+.footer-logo {
+    max-width: 126px; /* Largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
