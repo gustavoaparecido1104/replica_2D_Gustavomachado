@@ -280,15 +280,7 @@ nav ul {
     background-color: #fff; /* Fundo branco para destacar a borda */
 }
 
-footer {
-    background-color: #e10600; /* Cor do rodapé */
-    color: white; /* Cor do texto */
-    text-align: center; /* Centraliza o texto */
-    padding: 10px 0; /* Espaçamento interno */
-    position: relative; /* Posiciona o rodapé corretamente */
-    bottom: 0; /* Alinha ao fundo */
-    width: 100%; /* Largura total */
-}
+
 /* Seção More News */
 .more-news-section {
     margin-top: 50px; /* Espaçamento da linha preta */
@@ -339,4 +331,88 @@ footer {
     content: '';
     display: block;
     margin: 5px 0; /* Espaço entre as quebras de linha */
+}
+footer {
+    background-color: #111; /* Fundo escuro */
+    color: white;
+    padding: 30px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-partners {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-partners h3 {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer-partners ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.footer-partners img {
+    max-width: 80px;
+    height: auto;
+}
+
+.footer-links {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+}
+
+.footer-links div {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.footer-links h4 {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 0.9rem;
+    color: #aaa;
 }
