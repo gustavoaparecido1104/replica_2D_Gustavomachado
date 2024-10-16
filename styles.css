@@ -307,33 +307,33 @@ footer {
     width: 100%;
     margin-bottom: 30px; /* Espaço entre a linha e o conteúdo abaixo */
 }
-
 .more-news-container {
     display: flex;
-    justify-content: space-between; /* Distribui o espaço entre as imagens */
-    align-items: flex-start; /* Alinha as imagens ao topo */
-    gap: 20px; /* Espaço entre os itens */
+    justify-content: space-between; /* Distribui o espaço uniformemente */
+    align-items: flex-start;
+    gap: 10px; /* Diminui o espaço entre as imagens */
 }
 
 .news-item {
-    flex: 1; /* Faz com que todos os itens tenham o mesmo tamanho */
-    text-align: center; /* Centraliza o texto e a imagem */
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px; /* Adiciona um pequeno espaço abaixo de cada item */
 }
 
 .news-image {
-    width: 100%; /* Assegura que a imagem ocupe 100% da largura disponível no item */
-    max-width: 220px; /* Limita a largura máxima das imagens para caber as quatro na mesma linha */
+    width: 100%;
+    max-width: 180px; /* Reduz a largura das imagens */
     height: auto;
-    margin-bottom: 10px; /* Espaço entre a imagem e o texto */
+    margin-bottom: 10px;
 }
 
 .news-text {
-    font-size: 1rem;
-    max-width: 220px; /* Garante que o texto tenha o mesmo tamanho da imagem */
-    margin: 0 auto; /* Centraliza o texto */
+    font-size: 0.9rem; /* Reduz um pouco o tamanho da fonte */
+    max-width: 180px; /* Garante que o texto se alinhe com a imagem */
+    margin: 0 auto;
     text-align: center;
-    line-height: 1.4; /* Espaçamento entre as linhas de texto */
-    white-space: normal; /* Permite que o texto quebre em várias linhas */
+    line-height: 1.4;
+    white-space: normal;
 }
 
 
