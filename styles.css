@@ -306,35 +306,35 @@ footer {
     border: 4px solid black; /* Aumenta a espessura da linha para 4px */
     width: 100%;
     margin-bottom: 30px; /* Espaço entre a linha e o conteúdo abaixo */
-}
-.more-news-container {
+}.more-news-container {
     display: flex;
-    justify-content: space-between; /* Distribui o espaço uniformemente */
+    justify-content: space-between; /* Mantém o espaço uniforme entre os itens */
     align-items: flex-start;
-    gap: 10px; /* Diminui o espaço entre as imagens */
+    gap: 5px; /* Reduz ainda mais o espaço entre os itens */
+    flex-wrap: nowrap; /* Evita a quebra para a linha seguinte */
 }
 
 .news-item {
     flex: 1;
     text-align: center;
-    margin-bottom: 20px; /* Adiciona um pequeno espaço abaixo de cada item */
+    margin-bottom: 10px; /* Espaçamento reduzido abaixo de cada item */
 }
 
 .news-image {
     width: 100%;
-    max-width: 180px; /* Reduz a largura das imagens */
+    max-width: 160px; /* Reduz a largura das imagens para caber na mesma linha */
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 5px; /* Espaçamento reduzido abaixo das imagens */
 }
 
 .news-text {
-    font-size: 0.9rem; /* Reduz um pouco o tamanho da fonte */
-    max-width: 180px; /* Garante que o texto se alinhe com a imagem */
+    font-size: 0.8rem; /* Reduz ainda mais o tamanho da fonte */
+    max-width: 160px; /* Ajusta para acompanhar o tamanho das imagens */
     margin: 0 auto;
     text-align: center;
-    line-height: 1.4;
-    white-space: normal;
+    line-height: 1.2; /* Reduz o espaçamento entre linhas no texto */
 }
+
 
 
 .news-text br {
