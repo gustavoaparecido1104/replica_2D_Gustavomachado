@@ -289,4 +289,54 @@ footer {
     bottom: 0; /* Alinha ao fundo */
     width: 100%; /* Largura total */
 }
+/* Seção More News */
+.more-news-section {
+    margin-top: 50px; /* Espaçamento da linha preta */
+}
+
+.more-news-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.separator-line {
+    border: 2px solid black;
+    width: 100%;
+    margin-bottom: 30px; /* Espaço entre a linha e o conteúdo abaixo */
+}
+
+.more-news-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Espaço entre os itens de notícia */
+}
+
+.news-item {
+    flex: 1; /* Faz com que os itens se ajustem ao espaço disponível */
+    text-align: center;
+}
+
+.news-image {
+    width: 100%; /* Mantém a imagem responsiva */
+    height: auto; 
+    border-radius: 8px; /* Bordas arredondadas nas imagens */
+}
+
+.news-text {
+    margin-top: 10px; /* Espaço entre a imagem e o texto */
+    font-size: 1rem; 
+    line-height: 1.4rem; /* Altura da linha para dar um respiro entre as quebras */
+    color: black;
+    text-align: center;
+    word-wrap: break-word; /* Garante que o texto não vaze */
+}
+
+.news-text br {
+    content: '';
+    display: block;
+    margin: 5px 0; /* Espaço entre as quebras de linha */
+}
 
