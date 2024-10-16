@@ -190,6 +190,21 @@ nav ul {
     height: auto;
 }
 
+/* Para limitar a largura dos textos */
+.text-block {
+    max-width: 90%; /* Limite de largura para os textos */
+    margin: 0 auto; /* Centraliza o texto */
+    text-align: center; /* Centraliza o texto */
+    font-size: 1.2rem; /* Ajuste do tamanho da fonte */
+}
+
+/* Quebra de linha para simetria */
+.text-block br {
+    content: '';
+    display: block;
+    margin: 10px 0; /* Espaço entre as quebras de linha */
+}
+
 .watch-now-btn {
     display: inline-block;
     background-color: #ffffff; /* Cor do botão */
@@ -237,16 +252,9 @@ nav ul {
     top: 5px; /* Alinhado com o topo da linha */
     width: 5px; /* Espessura da linha vertical */
     height: calc(100vh - 200px); /* Altura da linha vertical até embaixo da imagem do botão */
-    background-color: red; /* Cor da linha */
 }
 
 /* Separação entre os textos */
-.text-block {
-    margin-bottom: 20px; /* Ajuste o espaço entre cada bloco de texto */
-    font-size: 1.2rem; /* Ajuste do tamanho da fonte */
-}
-
-/* Estilo para os novos textos */
 .new-text-block {
     margin-bottom: 30px; /* Espaço entre cada novo bloco de texto */
     font-size: 1.2rem; /* Ajuste do tamanho da fonte */
