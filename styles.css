@@ -271,3 +271,22 @@ nav ul {
     background-color: red; /* Cor da linha */
     z-index: -1; /* Coloca a linha atrás do conteúdo */
 }
+/* Estilos para a seção Editor's Picks */
+.editor-picks {
+    border: 10px solid red; /* Borda vermelha */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    margin: 20px 0; /* Espaço acima e abaixo do container */
+    background-color: #fff; /* Fundo branco para destacar a borda */
+}
+
+footer {
+    background-color: #e10600; /* Cor do rodapé */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Espaçamento interno */
+    position: relative; /* Posiciona o rodapé corretamente */
+    bottom: 0; /* Alinha ao fundo */
+    width: 100%; /* Largura total */
+}
+
