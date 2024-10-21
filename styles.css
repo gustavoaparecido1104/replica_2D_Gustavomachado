@@ -1,4 +1,4 @@
-/* Estilos gerais */
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -52,7 +52,7 @@ nav ul {
     background-color: #b00000;
 }
 
-/* Espaço entre o menu e o conteúdo */
+
 .main-content {
     display: flex;
     justify-content: space-between;
@@ -92,7 +92,7 @@ nav ul {
     height: auto;
 }
 
-/* Notícias relacionadas */
+
 .related-news {
     display: flex;
     flex-wrap: wrap; 
@@ -118,18 +118,18 @@ nav ul {
     margin: 10px 0 0 0;
 }
 
-/* Estilos para as notícias adicionais */
+
 .additional-item {
     text-align: center;
     margin-top: 10px;
 }
 
 .additional-image {
-    width: 100%; /* Ajuste para responsividade */
+    width: 100%; 
     height: auto;
 }
 
-/* Estilo para o botão VIEW LATEST NEWS */
+
 .view-latest-news-btn {
     display: inline-block;
     background-color: #e10600; 
@@ -147,7 +147,7 @@ nav ul {
     background-color: #b00000;
 }
 
-/* Novo Container */
+
 .custom-container {
     display: flex;
     align-items: center;
@@ -188,7 +188,7 @@ nav ul {
     height: auto;
 }
 
-/* Para limitar a largura dos textos */
+
 .text-block {
     max-width: 90%;
     margin: 0 auto;
@@ -219,7 +219,7 @@ nav ul {
     background-color: #b00000;
 }
 
-/* Estilo para o título Editor's Picks */
+
 .editor-picks-title {
     font-size: 2rem;
     font-weight: bold;
@@ -249,14 +249,14 @@ nav ul {
     height: calc(100vh - 200px);
 }
 
-/* Separação entre os textos */
+
 .new-text-block {
     margin-bottom: 30px;
     font-size: 1.2rem;
     color: black;
 }
 
-/* Linha que dá a volta */
+
 .line-wrap {
     position: absolute;
     left: 0;
@@ -267,7 +267,7 @@ nav ul {
     z-index: -1;
 }
 
-/* Estilos para a seção Editor's Picks */
+
 .editor-picks {
     border: 10px solid red;
     border-radius: 10px;
@@ -276,7 +276,7 @@ nav ul {
     background-color: #fff;
 }
 
-/* Seção More News */
+
 .more-news-section {
     margin-top: 50px;
 }
@@ -430,7 +430,7 @@ footer {
     font-size: 0.8rem;
 }
 
-/* Media Queries */
+
 @media (max-width: 768px) {
     .main-content {
         flex-direction: column;
